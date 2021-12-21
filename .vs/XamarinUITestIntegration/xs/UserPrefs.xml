@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{739BDF1F-C583-45EB-B27B-1C62F5D3E219}|Default">
+  <MonoDevelop.Ide.ItemProperties.UITest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UITest/AppInitializer.cs">
+    <Files>
+      <File FileName="UITest/Tests.cs" Line="3" Column="1" />
+      <File FileName="XamarinUITestIntegration/MainPage.xaml" />
+      <File FileName="UITest/AppInitializer.cs" Line="1" Column="1" />
+      <File FileName="UITest/packages.config" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinUITestIntegration" expanded="True">
+            <Node name="UITest" expanded="True">
+              <Node name="AppInitializer.cs" selected="True" />
+            </Node>
+            <Node name="XamarinUITestIntegration" expanded="True" />
+            <Node name="XamarinUITestIntegration.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="XamarinUITestIntegration" expanded="True">
+            <Node name="UITest" expanded="True">
+              <Node name="Test Apps" selected="True" />
+              <Node name="UITest" expanded="True">
+                <Node name="Tests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.XamarinUITestIntegration.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.219EB971-1FC2-4645-899D-A55F4D63A16C" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.ItemProperties.XamarinUITestIntegration.Android PreferredExecutionTarget="Android.pixel_3_xl_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/valerio/Projects/XamarinUITestIntegration/UITest/Tests.cs" relfile="UITest/Tests.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
