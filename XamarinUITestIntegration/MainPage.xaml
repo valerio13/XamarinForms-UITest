@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinUITestIntegration.MainPage"
+             x:Name="root">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="0,0,0,20" CornerRadius="0">
+            <Label Text="Xamarin UITest" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Button Text="Next Page"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"
+                Margin="0,30,0,0"/>
+
+        <Label AutomationId="sliderText"
+               Text="{Binding Source={x:Reference mySlider},
+                              Path=Value,
+                              StringFormat='Slider value: {0:F2}'}"
+               FontSize="14"
+               TextColor="DodgerBlue"
+               HorizontalOptions="Center"
+               Margin="0,30,0,0"/>
+        <Slider AutomationId="slider"
+                x:Name="mySlider"
+                Maximum="50"
+                Minimum="5"
+                Margin="30,10"/>
+
+
+    </StackLayout>
+
+</ContentPage>
